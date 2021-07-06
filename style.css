@@ -126,6 +126,51 @@ p{
     margin: -8px;
 }/*end social hits*/
 
+.newsletter{
+    position: relative;
+    background-image: url(img/summer-fruit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+    padding: 100px;
+    color: rgb(252, 251, 251);
+}
+.newsletter::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: #F58135;
+    opacity: .4;
+    z-index: -1;
+}
+.newsletter h2{
+    font-size: 38px;
+    margin-top: 0;
+}
+.newsletter p{
+    margin-bottom: 10px;
+}
+#subscribe input[type="email"], #subscribe input[type="submit"] {
+    padding: 20px 28px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+    font-size: 16px;
+}
+#subscribe input[type="submit"]{
+    margin-left: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, rgba(69,149,54,1) 0%, rgba(223,169,95,1) 100%);
+    color: white;
+    cursor: pointer;
+}/*end newsletter area*/
+
 #footer{
     text-align: center;
     background-color: black;
