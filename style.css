@@ -171,6 +171,7 @@ header{
     padding: 100px;
     color: rgb(252, 251, 251);
     z-index: 1;
+    box-shadow: -1px 0px 3px greenyellow;
 }
 .newsletter::after{
     position: absolute;
